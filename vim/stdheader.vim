@@ -5,7 +5,7 @@ let s:asciiart = [
 			\"  +#+  +:+       +#+     ",
 			\"+#+#+#+#+#+   +#+        ",
 			\"     #+#    #+#          ",
-			\"    ###   ########.fr    "
+			\"    ###   ########.tr    "
 			\]
 
 let s:start		= '/*'
@@ -81,7 +81,7 @@ endfunction
 function! s:user()
 	let l:user = $USER
 	if strlen(l:user) == 0
-		let l:user = "marvin"
+		let l:user = "bsenol"
 	endif
 	return l:user
 endfunction
@@ -89,7 +89,7 @@ endfunction
 function! s:mail()
 	let l:mail = $MAIL
 	if strlen(l:mail) == 0
-		let l:mail = "marvin@42.fr"
+		let l:mail = "bsenol@student.42kocaeli.com.tr"
 	endif
 	return l:mail
 endfunction
